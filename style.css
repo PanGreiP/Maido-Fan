@@ -1,0 +1,66 @@
+html{
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(255, 192, 203, 50%);
+	background-image: url(dots.png);
+}
+body{
+	background-image: url(maid1.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	margin: 0;
+}
+.container{
+	display: grid;
+	grid-template-columns: 200px 90px 100px 100px 100px 100px 100px 100px 100px 100px 1fr;
+	grid-template-rows: 50px 70px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+header{
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	grid-row: 1;
+	grid-column: 1;
+}
+sider{
+	background-color: rgb(15,15,15, 65%);
+	grid-row: 3 / 8;
+	grid-column: 1;
+}
+#parallelogram { 
+	-webkit-transform: skew(-25deg); 
+	-moz-transform: skew(-25deg); 
+	-o-transform: skew(-25deg); 
+	background: rgb(0,0,0, 65%); 
+}
+h4{
+	margin: 0;
+	font-size: 85%;
+	margin-top: 5px;
+	color: pink;
+}
+.ulmenu {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(255, 192, 203, 50%);
+}
+.menu a {
+    display: block;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: #161616;
+    color: white;
+}
